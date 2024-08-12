@@ -16,7 +16,7 @@ data class CustomerEntity (
     @Column(name = "id", nullable = false, updatable = false)
     val id: UUID? = null,
 
-    @Column(name= "name", nullable = false, updatable = true)
+    @Column(name= "names", nullable = false, updatable = true)
     val name: String? = null,
 
     @Column(name= "breed", nullable = false, updatable = true)
