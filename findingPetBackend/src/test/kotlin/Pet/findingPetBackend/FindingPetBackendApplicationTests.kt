@@ -1,0 +1,13 @@
+package Pet.findingPetBackend
+
+import org.junit.jupiter.api.Test
+import org.springframework.boot.test.context.SpringBootTest
+
+@SpringBootTest
+class FindingPetBackendApplicationTests {
+
+	@Test
+	fun contextLoads() {
+	}
+
+}
