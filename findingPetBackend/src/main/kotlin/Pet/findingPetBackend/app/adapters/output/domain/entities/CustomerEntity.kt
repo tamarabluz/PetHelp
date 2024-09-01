@@ -1,4 +1,4 @@
-package Pet.findingPetBackend.app.adapters.output.entities
+package Pet.findingPetBackend.app.adapters.output.domain.entities
 
 import jakarta.persistence.*
 import lombok.NoArgsConstructor
@@ -27,6 +27,9 @@ data class CustomerEntity (
 
     @Column(name= "owner", nullable = false, updatable = true)
     val owner: String? = null,
+
+    @Column(name= "email", nullable = false, updatable = true)
+    val email: String? = null,
 
     @Column(name= "phoneNumber", nullable = false, updatable = true)
     val phoneNumber: String? = null,
